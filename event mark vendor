@@ -1,0 +1,58 @@
+DELETE FROM `creature_template` WHERE (`entry`=600900);
+DELETE FROM `npc_vendor` WHERE (`entry`=600900);
+DELETE FROM `creature` WHERE (`id`=600900);
+
+INSERT INTO `creature_template` VALUES ('600900', '0', '0', '0', '0', '0', '1460', '0', '0', '0', 'Event Vendor', 'Vendor', '', '0', '88', '88', '3', '35', '35', '4225', '1', '1.14286', '0.15', '0', '1', '1', '1', '1', '1', '1', '1', '1', '258', '0', '8', '0', '0', '0', '0', '0', '1', '1', '1', '7', '4', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0', '7', '1', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1');
+
+INSERT INTO `creature` VALUES ('15011146', '600900', '1', '1', '1', '0', '0', '1582.5', '-4419.81', '8.27874', '4.04398', '300', '0', '0', '1', '0', '0', '0', '0', '0');
+INSERT INTO `creature` VALUES ('15011147', '600900', '0', '1', '1', '0', '0', '-8847.52', '631.239', '95.1379', '0.358493', '300', '0', '0', '1', '0', '0', '0', '0', '0');
+
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '51955', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '51954', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '45802', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '32458', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49290', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '54860', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '43516', '0', '0', '2410'); -- 1000 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '54811', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '43962', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '21176', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '50250', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '45725', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '33809', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '37676', '0', '0', '2407'); -- 500 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49284', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '32768', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '45693', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '37719', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49636', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49286', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '34092', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '46109', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '43599', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '23720', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '35225', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '19029', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '33977', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '30609', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '34493', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '35227', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '23713', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '8494', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49287', '0', '0', '2409'); -- 250 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '32622', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '32616', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '32617', '0', '0', '2408'); -- 100 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '25535', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49665', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '43517', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '34492', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49343', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '41133', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '13582', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '13584', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '13583', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '49663', '0', '0', '2411'); -- 50 mariek
+INSERT INTO `npc_vendor` VALUES ('600900', '0', '23162', '0', '0', '2411'); -- 50 mariek
+
+
